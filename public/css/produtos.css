@@ -1,0 +1,103 @@
+.logo{
+    display: inline-block;
+    width: 10%;
+    height: 50;
+}
+.caixa{
+    position:relative;
+    width:940px;
+    margin: 0 auto;
+}
+header{
+    background: gray;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: 40px;
+    right:0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold; /*Aumenta a grossura da linha */
+    font-size: 22px;
+    text-decoration: none /*Tira a o sublinhado;*/
+}
+nav a:hover{
+    color: gold;
+}
+.imagem-produtos {
+width: 100%;
+    height: 140px;
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imagem-produtos .img-top {
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.imagem-produtos:hover .img-top {
+    display: inline;
+}
+.produtos li:hover {
+    border: 4px gold solid;
+    
+}
+.produtos li:hover h2{
+    font-size:35px;
+    
+}
+.produtos{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+    vertical-align: top;
+    background: lightgray;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-desc{
+    font-size: 18px;
+    font-style: italic;
+}
+.produto-preço{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+}
+#unidades{
+    padding-top: 5px;
+}
+footer{
+    text-align: center;
+    background: lightgray;
+}
