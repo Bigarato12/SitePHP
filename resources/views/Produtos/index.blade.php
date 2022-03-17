@@ -14,7 +14,8 @@
               <h1><a href="home.html"><img class="logo" src="{{ asset('images/logo.png') }}" alt="Logo brub's"></a></h1>
               <nav>
                    <ul class="NavBar">  
-                        <li><a href="{{ route('Pagina_De_Home')}}">Home</a></li>
+                        <li><a href="{{ ro
+                            ute('Pagina_De_Home')}}">Home</a></li>
                         <li><a href="{{ route('Pagina_De_Produtos')}}">Produtos</a></li>
                         <li><a href="{{ route('Pagina_De_Contato')}}">Contato</a></li>
                    </ul>
